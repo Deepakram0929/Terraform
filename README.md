@@ -1,3 +1,4 @@
+```
 terraform init
 terraform init --upgarde
 terraform validate
@@ -11,3 +12,4 @@ terraform workspace create dev
 terraform workspace show
 terraform workspace delete dev
 terraform state list
+```
