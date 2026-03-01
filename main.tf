@@ -23,7 +23,7 @@ resource "aws_instance" "two" {
 }
 
 // Using locals to create environment specific resources
-// Workspace specific resources can be created using terraform.workspace variable in locals block. This will help to create separate resources for each environment (dev, test, prod) without changing the code.
+// Workspace specific resources can be created using terraform.workspace variable in locals block. This will help to create separate resources for each environment (dev, test, prod) without changing the code..
 # locals {
 #   env = "${terraform.workspace}"
 # }
